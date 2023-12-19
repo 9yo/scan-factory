@@ -1,8 +1,52 @@
 ## How to run
 ```bash
-# install python first
-# example:  export DB_PATH="Domains Database.db" && python3 main.py
+# Install python 3.8+
 export DB_PATH=<your_db_path> && python3 main.py
+
+# example output
+> export DB_PATH="Domains Database.db" && python3 main.py
+Domains from first project: 1234 , apply regexp: '(?:static|xxx)\.(?:developer)\.(?:xxx)\.(?:com)'
+        api.alt-epg-dev.xxx.com
+        auth.fine.xxx.com
+        backend.beta.xxx.com
+        blog.fine.xxx.com
+        canvas.hs-beta.xxx.com
+        files.hs-beta.xxx.com
+        files.sm-beta.xxx.com
+        grafana.mon.xxx.com
+        kibana.mon.xxx.com
+        killbill.smartpay.xxx.com
+        ns1.vis.xxx.com
+        autodiscover.xxx.com
+        cdn-app.xxx.com
+        dci-hub.xxx.com
+        feedback.xxx.com
+        mail.xxx.com
+        mcri.xxx.com
+        mon.xxx.com
+        news.xxx.com
+        offer.xxx.com
+        foodtech.strapi.prom.fine.xxx.com
+        plasma.xxx.com
+        post.xxx.com
+        gaming.xxx.com
+        smartapp-code.xxx.com
+        vc-static.xxx.com
+        vc.xxx.com
+        visp.xxx.com
+        prometheus.mon.xxx.com
+        push.mon.xxx.com
+        resp.strapi.prom.fine.xxx.com
+        xxx.iftx.app.xxx.com
+        xxx.promx.app.xxx.com
+
+Domains from second project: 5678 , apply regexp: '(?:sub)\.(?:yyy)'
+        homepage.yyy.com
+        delivery.yyy.com
+        foo.sub.xyz.com
+        promo.xyz.com
+        static.xyz.com
+
 ```
 
 ## Task Body
